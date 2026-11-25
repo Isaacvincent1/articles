@@ -54,7 +54,7 @@ def save_seen(seen):
 def post_to_discord(title, url):
     r = requests.post(
         WEBHOOK_URL,
-        json={"content": f"📰 **Nouvel article**"},
+        json={"content": f"📰 **Nouvel article** \n{url}"},
         timeout=30,
     )
     r.raise_for_status()
