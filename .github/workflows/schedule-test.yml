@@ -2,7 +2,7 @@ name: Test planification GitHub
 
 on:
   schedule:
-    - cron: "13,43 * * * *"
+    - cron: "17,43 * * * *"
 
 jobs:
   test:
