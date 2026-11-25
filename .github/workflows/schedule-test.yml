@@ -1,0 +1,12 @@
+name: Test planification GitHub
+
+on:
+  schedule:
+    - cron: "13,43 * * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vérifier le déclenchement automatique
+        run: echo "Le schedule fonctionne ! $(date -u)"
