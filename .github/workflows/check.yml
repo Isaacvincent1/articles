@@ -2,7 +2,7 @@ name: Vérifier les nouveaux articles
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "9,24,39,54 * * * *"
   workflow_dispatch:          # permet aussi un lancement manuel
 
 permissions:
